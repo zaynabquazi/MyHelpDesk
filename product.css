@@ -29,6 +29,7 @@
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
+/*
 .product-device {
   position: absolute;
   right: 10%;
@@ -57,6 +58,19 @@
   bottom: 0;
   left: 5%;
   background-color: #e5e5e5;
+}
+*/
+.hero-section {
+  background-image: url('MHDBG.jpg'); /* Replace with actual image path */
+  background-size: cover;  /* Ensure the image covers the full section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 100vh; /* Make the section take full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Ensures text remains readable */
+  position: relative; /* Keeps child elements in correct position */
 }
 
 
