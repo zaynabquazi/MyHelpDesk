@@ -72,6 +72,10 @@
   color: white; /* Ensures text remains readable */
   position: relative; /* Keeps child elements in correct position */
 }
+.hero-section h3 {
+  color: white !important; /* Ensure text is clearly visible */
+}
+
 
 
 /*
